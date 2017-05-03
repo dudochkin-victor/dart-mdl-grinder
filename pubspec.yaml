@@ -1,0 +1,25 @@
+name: mdl_grinder
+description: Helper lib for managing MDL and MDL-Site project
+author: Mike Mitterer <office@mikemitterer.at>
+homepage: http://www.material-design-lite.pub/
+
+version: 1.0.0
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+dependencies:
+  browser: ^0.10.0
+
+  logging: ^0.11.0
+  logging_handlers: ^0.8.0
+  console_log_handler: ^0.1.0
+
+  validate: ^1.0.0
+
+  args: ^0.13.0
+  yaml: ^2.1.0
+
+dev_dependencies:
+  test: any
+  grinder: any
