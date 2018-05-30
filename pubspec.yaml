@@ -3,10 +3,11 @@ description: Helper lib for managing MDL and MDL-Site project
 author: Mike Mitterer <office@mikemitterer.at>
 homepage: http://www.material-design-lite.pub/
 
-version: 1.0.0
+version: 1.0.0+1
 
 environment:
-  sdk: '>=1.0.0 <2.0.0'
+#  sdk: '>=1.0.0 <2.0.0'
+  sdk: '>=2.0.0-dev.52.0 <2.0.0'
 
 dependencies:
 
@@ -14,7 +15,7 @@ dependencies:
 
   validate: ^1.0.0
 
-  args: ^0.13.0
+  args: ^1.4.3
   yaml: ^2.1.0
 
 dev_dependencies:
